@@ -44,7 +44,7 @@ body {
 
     color: #FFFDFC;
     font-size: 25px;
-    font-weight: 800;
+    font-weight: 100;
 
 }
 
@@ -53,8 +53,8 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
-    padding: 170px 55px;
+    height: 60px;
+    padding: 100px 55px;
     line-height: 1;
 
 }
@@ -161,8 +161,10 @@ li:hover {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
-    padding: 170px 55px;
+    height: 340px;
+    padding: 90px 55px;
+    max-width: 345px;
+    margin: 0 auto;
     line-height: 1;
 }
 
@@ -171,8 +173,10 @@ li:hover {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
-    padding: 170px 55px;
+    height: 340px;
+    padding: 100px 55px;
+    max-width: 345px;
+    margin: 0 auto;
     line-height: 1;
 }
 
@@ -181,8 +185,10 @@ li:hover {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
-    padding: 170px 55px;
+    height: 340px;
+    padding: 80px 55px;
+    max-width: 345px;
+    margin: 0 auto;
     line-height: 1;
 }
 
@@ -191,8 +197,10 @@ li:hover {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
-    padding: 170px 55px;
+    height: 340px;
+    padding: 120px 55px;
+    max-width: 345px;
+    margin: 0 auto;
     line-height: 1;
 }
 
@@ -201,8 +209,10 @@ li:hover {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
-    padding: 170px 55px;
+    height: 340px;
+    padding: 100px 55px;
+    max-width: 345px;
+    margin: 0 auto;
     line-height: 1;
 }
 
@@ -211,8 +221,10 @@ li:hover {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
-    padding: 170px 55px;
+    height: 340px;
+    padding: 100px 55px;
+    max-width: 345px;
+    margin: 0 auto;
     line-height: 1;
 
 }
@@ -268,22 +280,25 @@ h2 {
 }
 
 .circle-txt {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 0 10px;
-
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .circle-1 {
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     border: 1px solid #FFFDFC;
     border-radius: 50%;
-    padding-top: 35px;
-    clip-path: circle(10);
+    padding-top: 20px;
+    width:200px;
+    padding:16px;
+    border-radius:10px;
+    margin:auto;
 }
 
 .circle-1 h2 {
@@ -297,7 +312,9 @@ h2 {
     border: 1px solid #FFFDFC;
     border-radius: 50%;
     padding-top: 35px;
+    clip-path: circle(20);
 }
+
 
 .circle-2 h2 {
     color: #BEBEBE;
@@ -306,7 +323,8 @@ h2 {
 
 .circle-txt p {
     color: #FFFDFC;
-    margin-top: 25px;
+    margin-top: 50px;
+    max-width: 500px;
 }
 
 .info-2 {
@@ -426,13 +444,17 @@ textarea{
 	margin: 0;
     box-sizing: content-box;
     background-color: #fff;
-    min-height: 20vh;
+    min-height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
     min-width: 100px;
     display: flex;
-     
+    text-decoration: none;
+    font-size: 28px;
+    transition: all .4s ease-in-out;
+
+        
 }
 /* Tablets y pantallas más pequeñas */
 
@@ -501,7 +523,7 @@ textarea{
     .esperiencia-4
     .esperiencia-5
     .esperiencia-6 {
-       height: 350px;
+       height: 200px;
        padding: 100px;
        margin-bottom: 11px;
     }
